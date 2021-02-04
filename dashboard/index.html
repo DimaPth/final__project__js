@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <section class="menu">
+        <div class="container-md">
+            <div class="menu-wrap d-flex justify-content-between">
+                <div class="row text-center mt-3 d-flex justify-content-between">
+                    <div class="col">
+                      <a href="#" class="text-decoration-none p-3"><span>Главная</span></a>
+                    </div>
+                    <div class="col">
+                      <a href="#" class="text-decoration-none p-3"><span>Клиенты</span></a>
+                    </div>
+                    <div class="col">
+                      <a href="#" class="text-decoration-none p-3"><span>Карты</span></a>
+                    </div>
+                </div>
+                <div class="d-flex ">
+                    <button type="button" id="exit-btn" class="btn btn-dark mt-3"><span>Выход</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="container-md d-flex justify-content-center align-items-center">
+            <div class="card align-middle">
+                <img src="/images/cat.png" class="card-img-top" alt="cat">
+                <div class="card-body">
+                  <h5 class="card-title">Приветствуем на нашем Сайте.</h5>
+                  <p class="card-text">Дописать нормальный текст.</p>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="clients hide">
+      <div class="container-md">
+        <a id="del">X</a>
+      </div>
+    </section>
+    <section class="map hide">
+      <div class="container-md">
+        <div id="map"></div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYNJa5kA07bdgLMpIDm52-4WB8FjZifsI&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+</body>
+</html>
