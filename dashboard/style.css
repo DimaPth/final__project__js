@@ -1,51 +1,57 @@
 body {
-    background-color: rgb(240, 240, 240);
-    background-image: url(../images/papers.co-vk64-samsung-galaxy-polyart-pastel-pattern-1680x1050.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: rgb(240, 240, 240);
+  background-image: url(../images/papers.co-vk64-samsung-galaxy-polyart-pastel-pattern-1680x1050.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 table {
-    background-color: #2b2925;
-    min-width: 90%;
+  background-color: #2b2925;
+  min-width: 90%;
 }
-tbody, td, tfoot, th, thead, tr {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-    padding: 5px;
-    border: 1px solid black;
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  padding: 5px;
+  border: 1px solid black;
 }
 thead {
-    text-align: center;
+  text-align: center;
 }
 .hide {
-    display: none;
+  display: none;
 }
 
 .main > .container-md {
-    height: 90vh;
-    min-height: 500px;
+  height: 90vh;
+  min-height: 500px;
 }
 
 .clients > .container-md {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 a:hover {
-    color: #000;
+  color: #000;
 }
 .card {
-    width: 20rem;
-    margin: 0 auto;
-    background-color: #fff;
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 #map {
-    height: 600px;
-    width: 100%;
+  margin-top: 20px;
+  height: 600px;
+  width: 100%;
 }

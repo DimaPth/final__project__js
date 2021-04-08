@@ -6,6 +6,13 @@ const menuLinks = document.querySelectorAll ('section.menu a');
 const exitBtn = document.getElementById('exit-btn');
 
 
+const nav = () =>{
+  document.location.href = "../index.html"
+}
+
+exitBtn.addEventListener('click', nav);
+
+
 
 menuLinks[0].onclick = () => {
   main.classList.remove('hide');
@@ -123,11 +130,12 @@ const createTable = (data) => {
         div.appendChild(cancelBtn);
         let cancel = () => {
           div.remove();
+          btn.disabled = false;
         }
         cancelBtn.addEventListener('click', cancel);
         clients.appendChild(div);
+        btn.disabled = true;
       }
-
       btn.addEventListener('click', createModal);
     })
   }
